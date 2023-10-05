@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Mokammadr"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-05 03:13:50 PM"/>
+        <attribute name="created" value="TW9rYW1tYWRyO0xBUFRPUC0yUEtCSDYzQjsyMDIzLTEwLTA1OzAyOjIyOjQ0IFBNOzMyMTU="/>
+        <attribute name="edited" value="TW9rYW1tYWRyO0xBUFRPUC0yUEtCSDYzQjsyMDIzLTEwLTA1OzAzOjEzOjUwIFBNOzE7MzMyMQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c, d, e, input" type="Integer" array="False" size=""/>
+            <input variable="input"/>
+            <assign variable="a" expression="input"/>
+            <output expression="&quot;memasukkan nilai&quot;" newline="True"/>
+            <output expression="a" newline="True"/>
+            <if expression="a&gt;=80">
+                <then>
+                    <output expression="&quot;lulus nilai A&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;lulus nilai B&quot;" newline="True"/>
+                </else>
+            </if>
+            <input variable="b"/>
+            <output expression="&quot;masukkan nilai&quot;" newline="True"/>
+            <output expression="b" newline="True"/>
+            <if expression="b&gt;=70">
+                <then>
+                    <output expression="&quot;lulus dengan nilai B&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;lulus nilai C&quot;" newline="True"/>
+                </else>
+            </if>
+            <input variable="c"/>
+            <output expression="&quot;masukkan nilai&quot;" newline="True"/>
+            <output expression="c" newline="True"/>
+            <if expression="c&gt;=40">
+                <then>
+                    <output expression="&quot;lulus dengan nilai C&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;lulus nilai D&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
